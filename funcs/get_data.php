@@ -4,9 +4,9 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
     $servername ='localhost';
-    $username = 'root';
-    $password = 'greentops2013';
-    $dbname = 'test';
+    $username = 'USERNAME';
+    $password = 'PASS';
+    $dbname = 'DB_NAME';
     
     require_once('./dataSelector.php');
     
